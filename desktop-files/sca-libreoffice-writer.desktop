@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=LibreOffice Writer
+GenericName[ru]=Текстовый процессор
+Comment[ru]=Создание и редактирование текста и рисунков в письмах, отчётах, документах или веб-страницах.
+StartupNotify=true
+StartupWMClass=libreoffice-writer
+InitialPreference=5
+Encoding=UTF-8
+Exec=libreoffice --writer %U
+Icon=libreoffice-writer
+Terminal=false
+Type=Application
+Categories=12-reporting;
+X-Kali-Package=libreoffice-writer

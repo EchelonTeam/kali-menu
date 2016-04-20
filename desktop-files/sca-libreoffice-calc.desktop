@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=LibreOffice Calc
+GenericName[ru]=Электронная таблица
+Comment[ru]=Выполнение вычислений, анализ информации и управление списками в электронных таблицах с помощью Calc.
+StartupNotify=true
+StartupWMClass=libreoffice-calc
+InitialPreference=5
+Encoding=UTF-8
+Exec=libreoffice --calc %U
+Icon=libreoffice-calc
+Terminal=false
+Type=Application
+Categories=12-reporting;
+X-Kali-Package=libreoffice-calc
