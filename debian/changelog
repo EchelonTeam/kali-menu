@@ -1,10 +1,11 @@
-kali-menu (2.4+echelon3) UNRELEASED; urgency=medium
+kali-menu (2.4+echelon4) UNRELEASED; urgency=medium
 
   * Add russian translation.
   * Add libreoffice and Echelon tools.
   * Add OpenVAS web interface.
+  * Remove OpenVAS initial setup.
 
- -- Vasily Laur <v.laur@npo-echelon.ru>  Mon, 25 Apr 2016 19:34:11 +0300
+ -- Vasily Laur <v.laur@npo-echelon.ru>  Tue, 10 May 2016 13:30:10 +0300
 
 kali-menu (2.4) sana; urgency=medium
 
