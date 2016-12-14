@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=wepcrackgui
+Name[ru]=Аудит Wi-Fi
+Encoding=UTF-8
+Exec=wepcrackgui
+Icon=wepcrackgui.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=06-wireless-attacks;
+X-Kali-Package=wepcrackgui
