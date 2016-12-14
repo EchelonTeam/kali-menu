@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=hydra-gtk
+Name[ru]=Сетевой аудит паролей
 Encoding=UTF-8
 Exec=sh -c "xhydra"
-Icon=kali-menu.png
+Icon=xhydra.svg
 StartupNotify=false
 Terminal=false
 Type=Application
