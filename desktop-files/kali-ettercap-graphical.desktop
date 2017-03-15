@@ -1,8 +1,9 @@
 [Desktop Entry]
 Name=ettercap-graphical
+Name[ru]=Сетевой анализатор
 Encoding=UTF-8
 Exec=sh -c "ettercap -G"
-Icon=ettercap.png
+Icon=ettercap.svg
 StartupNotify=false
 Terminal=false
 Type=Application
