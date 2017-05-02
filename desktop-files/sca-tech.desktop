@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=scanner3-program
+Name[ru]=Технические условия Сканер-ВС
+GenericName = scanner3-program
+Exec=evince /usr/share/doc/sca-doc/tech.pdf
+Icon=/usr/share/pixmaps/sca-doc.svg
+Type=Application
+Categories=14-help;
+X-Kali-Package=sca-doc

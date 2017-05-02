@@ -17,6 +17,7 @@
     <Menuname>Forensic Tools</Menuname>
     <Menuname>Reporting Tools</Menuname>
     <Menuname>System Services</Menuname>
+    <Menuname>Help</Menuname>
     <Merge type="all"/>
   </Layout>
   <Menu>
@@ -541,6 +542,15 @@
         </And>
       </Include>
     </Menu>
+  </Menu>
+  <Menu>
+    <Name>Help</Name>
+    <Directory>14-help.directory</Directory>
+    <Include>
+      <And>
+        <Category>14-help</Category>
+      </And>
+    </Include>
   </Menu>
   <!-- Move default top-level menus one level deeper -->
   <Move>
