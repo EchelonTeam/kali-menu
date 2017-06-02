@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=openvas web interface
+Name[ru]=Веб-интерфейс OpenVAS
+Encoding=UTF-8
+Exec=x-www-browser https://localhost:9392
+Icon=sca-web-browser
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=02-06-openvas;
+X-Kali-Package=openvas

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=ettercap-graphical
+Name[ru]=Сетевой анализатор
+Encoding=UTF-8
+Exec=sh -c "ettercap -G"
+Icon=ettercap.svg
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=09-sniffing-spoofing;
+X-Kali-Package=ettercap-graphical

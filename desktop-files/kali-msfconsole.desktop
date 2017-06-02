@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=metasploit framework
+Encoding=UTF-8
+Exec=sh -c "service postgresql start && sleep 5s && msfdb init & msfconsole;${SHELL:-bash}"
+Icon=metasploit.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=08-exploitation-tools;
+X-Kali-Package=metasploit-framework

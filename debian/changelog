@@ -1,0 +1,885 @@
+kali-menu (2.4+echelon6) UNRELEASED; urgency=medium
+
+  * Add russian translation.
+  * Add libreoffice and Echelon tools.
+  * Add OpenVAS web interface.
+  * Remove OpenVAS initial setup.
+  * Add help submenu.
+
+ -- Vasily Laur <v.laur@npo-echelon.ru>  Wed, 03 May 2017 17:42:32 +0300
+
+kali-menu (2.4) sana; urgency=medium
+
+  * Rename wireshark.png into kali-wireshark.png to avoid file conflicts
+    with wireshark.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 27 Aug 2015 16:06:45 +0200
+
+kali-menu (2.3) kali-dev; urgency=low
+
+  * Update sparta desktop item and image
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 09 Aug 2015 14:25:40 -0400
+
+kali-menu (2.2) kali-dev; urgency=medium
+
+  * Don't let APT run update-kali-menu when it's no longer installed.
+  * Small fixup in the services menu definition.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Fri, 24 Jul 2015 08:32:33 +0200
+
+kali-menu (2.1~16) kali-dev; urgency=low
+
+  * Moving icon images to the right directory
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 23 Jul 2015 21:15:49 -0400
+
+kali-menu (2.1~15) kali-dev; urgency=low
+
+  * Updated missing desktop entries and added icons
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 23 Jul 2015 19:03:53 -0400
+
+kali-menu (2.1~14) kali-dev; urgency=low
+
+  * Adding several missing desktop items
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 23 Jul 2015 10:26:58 -0400
+
+kali-menu (2.1~13) kali-dev; urgency=low
+
+  * More desktop item and menu cleanups
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 17:06:30 -0400
+
+kali-menu (2.1~12) kali-dev; urgency=low
+
+  * Remove uneeded desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 13:16:53 -0400
+
+kali-menu (2.1~11) kali-dev; urgency=low
+
+  * Fix missing categories #2361
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 22 Jul 2015 12:37:23 -0400
+
+kali-menu (2.1~10) kali-dev; urgency=low
+
+  * Update some chinese menu entries
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 15 Jun 2015 14:36:51 -0400
+
+kali-menu (2.1~9) kali-dev; urgency=low
+
+  * Cleanup to the desktop directories and a new icon
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 02 Jun 2015 16:40:18 -0400
+
+kali-menu (2.1~8) kali-dev; urgency=low
+
+  * Remove keepnote icons, for real
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 22 May 2015 07:28:31 -0400
+
+kali-menu (2.1~7) kali-dev; urgency=low
+
+  * Last icons from first level menu
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 21 May 2015 20:29:09 -0400
+
+kali-menu (2.1~6) kali-dev; urgency=low
+
+  * Version bump
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 21 May 2015 19:34:40 -0400
+
+kali-menu (2.1~5) kali-dev; urgency=low
+
+  * Remove keepnote icons
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 21 May 2015 19:15:53 -0400
+
+kali-menu (2.1~4) kali-dev; urgency=medium
+
+  * And again more icons.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Thu, 21 May 2015 22:57:45 +0200
+
+kali-menu (2.1~3) kali-dev; urgency=medium
+
+  * Add more icons.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 20 May 2015 15:18:40 +0200
+
+kali-menu (2.1~2) kali-dev; urgency=medium
+
+  * Fix merge type directive in menu layout.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 19 May 2015 18:05:56 +0200
+
+kali-menu (2.1~1) kali-dev; urgency=medium
+
+  * Add a dconf override file to setup App Folders for GNOME Shell.
+  * Move top-level folders down one level (below 'Usual Applications')
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 18 May 2015 16:34:06 +0200
+
+kali-menu (2.0) kali-dev; urgency=medium
+
+  * Update entry for zaproxy to match the rename of the executable.
+  * Fix VCS-git in debian/control
+
+ -- Sophie Brun <sophie@freexian.com>  Mon, 09 Mar 2015 15:38:48 +0100
+
+kali-menu (1.372) kali-dev; urgency=medium
+
+  * Update entry for snmpcheck to match the rename of the executable.
+
+ -- Raphaël Hertzog <buxy@kali.org>  Sat, 09 Aug 2014 14:21:01 +0000
+
+kali-menu (1.371) kali; urgency=low
+
+  * Update several broken menu items
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 07 Jun 2014 13:46:49 -0400
+
+kali-menu (1.370) kali; urgency=low
+
+  * Fixed acccheck desktop file error
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 04 Jun 2014 08:08:54 -0600
+
+kali-menu (1.369) kali; urgency=medium
+
+  * Update kali-beef.desktop to use beef-xss instead of beef.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 05 May 2014 18:27:13 +0200
+
+kali-menu (1.368) kali; urgency=low
+
+  * Edited the burpsuite desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 15 Apr 2014 09:53:33 -0600
+
+kali-menu (1.367) kali; urgency=low
+
+  * Added some missing desktop entries
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 26 Feb 2014 12:15:52 -0500
+
+kali-menu (1.366) kali; urgency=low
+
+  * Fixed error in dnsrecon desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 10 Feb 2014 10:13:11 -0700
+
+kali-menu (1.365) kali; urgency=low
+
+  * Removed oclhashcat-plus and oclhashcat-lite desktop files 
+  * (Closes: 0000868)
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 08 Jan 2014 16:25:20 -0700
+
+kali-menu (1.364) kali; urgency=low
+
+  * Added a desktop file for oclhashcat
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 10 Dec 2013 07:51:28 -0700
+
+kali-menu (1.363) kali; urgency=low
+
+  * Added slowhttptest
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 06 Dec 2013 22:34:40 -0500
+
+kali-menu (1.362) kali; urgency=low
+
+  * Updating missing tools, #638 #708.
+  * Added "Exploit Dev Tools" submenu. 
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 29 Nov 2013 18:02:38 -0500
+
+kali-menu (1.361) kali; urgency=low
+
+  * Edited the setoolkit menu entry (Closes: 0000584)
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 15 Oct 2013 10:50:48 -0600
+
+kali-menu (1.360) kali; urgency=low
+
+  * Edited DFF menu, added golismero monu (Closes: 0000637 and 0000555)
+
+ -- Emanuele Acri <crossbower@kali.org>  Tue, 15 Oct 2013 13:01:42 +0200
+
+kali-menu (1.359) kali; urgency=low
+
+  * Edited the arachni desktop file.  (Closes: 0000319 and 0000450)
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 11 Sep 2013 11:10:05 -0600
+
+kali-menu (1.358) kali; urgency=low
+
+  * Added rtlsdr-scanner desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 03 Sep 2013 10:41:51 -0600
+
+kali-menu (1.357) kali; urgency=low
+
+  * Added desktop file for gr-air-modes gui
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 30 Aug 2013 14:27:31 -0600
+
+kali-menu (1.356) kali; urgency=low
+
+  * Added desktop file for cudahashcat-plus
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 28 Aug 2013 10:19:38 -0600
+
+kali-menu (1.355) kali; urgency=low
+
+  * Added new desktop files for SDR
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 26 Aug 2013 11:34:15 -0600
+
+kali-menu (1.354) kali; urgency=low
+
+  * version bump
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 19 Aug 2013 14:23:11 -0400
+
+kali-menu (1.353) kali; urgency=low
+
+  * Aded bluesnarfer and mfterm desktop items
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 19 Aug 2013 14:03:21 -0400
+
+kali-menu (1.352) kali; urgency=low
+
+  * Added an SRD submenu in the wireless section
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 13 Aug 2013 12:21:49 -0400
+
+kali-menu (1.351) kali; urgency=low
+
+  * Updated menu icons, added rfcat and ubertooth
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 10 Aug 2013 17:24:53 -0400
+
+kali-menu (1.350) kali; urgency=low
+
+  * Fixed 0trace menu item
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 20:21:04 -0400
+
+kali-menu (1.349) kali; urgency=low
+
+  * Fixed smali menu icons
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 19:18:26 -0400
+
+kali-menu (1.348) kali; urgency=low
+
+  * Fixed xplico menu item typo
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 13:24:48 -0400
+
+kali-menu (1.347) kali; urgency=low
+
+  * Added xplico desktop entries
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 13:00:19 -0400
+
+kali-menu (1.346) kali; urgency=low
+
+  * Add PTH submenu and desktop entries
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 10:25:31 -0400
+
+kali-menu (1.345) kali; urgency=low
+
+  * Added openvas setup to service menu
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 08:54:40 -0400
+
+kali-menu (1.344) kali; urgency=low
+
+  * Fixed menu typo
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 08:44:20 -0400
+
+kali-menu (1.343) kali; urgency=low
+
+  * Version bump
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 08:15:41 -0400
+
+kali-menu (1.342) kali; urgency=low
+
+  * Added openvas service menu items
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 09 Aug 2013 08:01:21 -0400
+
+kali-menu (1.341) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 06 Jun 2013 15:39:19 -0600
+
+kali-menu (1.340) kali; urgency=low
+
+  * Added a recon-ng desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 29 May 2013 14:45:30 -0600
+
+kali-menu (1.339) kali; urgency=low
+
+  * Edited the zaproxy desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 29 Apr 2013 11:40:49 -0600
+
+kali-menu (1.338) kali; urgency=low
+
+  * Create /run/lock when needed.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 23 Apr 2013 11:03:54 +0200
+
+kali-menu (1.337) kali; urgency=low
+
+  * Create /var/lock when needed.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 22 Apr 2013 18:28:47 +0200
+
+kali-menu (1.336) kali; urgency=low
+
+  * Edited the pdfbook desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 22 Apr 2013 06:24:56 -0600
+
+kali-menu (1.335) kali; urgency=low
+
+  * Edited the davtest desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 17 Apr 2013 11:43:48 -0600
+
+kali-menu (1.334) kali; urgency=low
+
+  * Edited the bed desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 16 Apr 2013 10:13:36 -0600
+
+kali-menu (1.333) kali; urgency=low
+
+  * Added a regripper desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 08 Apr 2013 15:58:03 -0600
+
+kali-menu (1.332) kali; urgency=low
+
+  * added hamster-sidekick.desktop file.
+
+ --  Jaime Filson <wik@kali.org>  Sun, 07 Apr 2013 15:03:55 -0400
+
+kali-menu (1.331) kali; urgency=low
+
+  * Added jd-gui desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 01 Apr 2013 11:58:38 -0600
+
+kali-menu (1.330) kali; urgency=low
+
+  * Added a link to gnome-applications-merged as a walk around to
+    editing menu entries.
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 25 Mar 2013 07:49:01 -0400
+
+kali-menu (1.329) kali; urgency=low
+
+  * Added a desktop file for ldb
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 22 Mar 2013 15:36:28 -0600
+
+kali-menu (1.328) kali; urgency=low
+
+  * Added a uniscan desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 22 Mar 2013 09:13:01 -0600
+
+kali-menu (1.327) kali; urgency=low
+
+  * Added arachni desktop file in favour of webshag_cli.
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 21 Mar 2013 08:15:16 -0400
+
+kali-menu (1.326) kali; urgency=low
+
+  * Added subcategory for inguma, and 2 desktop entries.
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Mar 2013 17:16:24 -0400
+
+kali-menu (1.325) kali; urgency=low
+
+  * Removed redundant aircrack-ng menu entries, added bully.
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Mar 2013 15:12:52 -0400
+
+kali-menu (1.324) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 19 Mar 2013 09:48:39 -0600
+
+kali-menu (1.323) kali; urgency=low
+
+  * Added xdg-utils as a dependency.
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 19 Mar 2013 10:47:26 -0400
+
+kali-menu (1.322) kali; urgency=low
+
+  * Added beef, dradis to menu. Created a new documentation submenu.
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 19 Mar 2013 10:14:55 -0400
+
+kali-menu (1.321) kali; urgency=low
+
+  * Fixed sigfind desktop entry
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 17 Mar 2013 08:12:13 -0400
+
+kali-menu (1.32) kali; urgency=low
+
+  * Added armitage and zenmap desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 13 Mar 2013 04:46:34 -0600
+
+kali-menu (1.31) kali; urgency=low
+
+  * Added hydra to the top10
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 11 Mar 2013 02:32:24 -0600
+
+kali-menu (1.3) kali; urgency=low
+
+  * Edited the vega desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Sun, 10 Mar 2013 08:23:32 -0600
+
+kali-menu (1.2) kali; urgency=low
+
+  [ Raphaël Hertzog ]
+  * Redirect update-kali-menu to /dev/null so that it doesn't keep the
+    terminal filehandle open.
+
+  [ Mati Aharoni ]
+  * Updated rfidiot desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 09 Mar 2013 14:28:27 -0500
+
+kali-menu (1.0) kali; urgency=low
+
+  * Fix update-kali-menu to not create the "mode" and "493" directories in
+    the root directory.
+  * Drop unwanted executable rights on some image files.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Tue, 05 Mar 2013 16:40:54 +0100
+
+kali-menu (0.99995) kali; urgency=low
+
+  * Added paros desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 01 Mar 2013 05:30:28 -0700
+
+kali-menu (0.99994) kali; urgency=low
+
+  * Updated msf desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 28 Feb 2013 16:00:09 -0500
+
+kali-menu (0.99993) kali; urgency=low
+
+  * Fixed up several duplicate desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 28 Feb 2013 15:39:26 -0500
+
+kali-menu (0.99992) kali; urgency=low
+
+  * Added an ikat desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 28 Feb 2013 09:36:02 -0700
+
+kali-menu (0.99991) kali; urgency=low
+
+  * Fixed disassembler typo
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 28 Feb 2013 10:46:33 -0500
+
+kali-menu (0.9999) kali; urgency=low
+
+  * Edited the oclhashcat-plus and oclhashcat-lite desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 28 Feb 2013 05:21:44 -0700
+
+kali-menu (0.9998) kali; urgency=low
+
+  * Added MySQL desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 26 Feb 2013 11:18:08 -0700
+
+kali-menu (0.9997) kali; urgency=low
+
+  * Edited the MSF menu entries to comply with the Kali naming standard
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 26 Feb 2013 09:24:56 -0700
+
+kali-menu (0.9996) kali; urgency=low
+
+  * Renaming msf desktop entries
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 25 Feb 2013 22:03:05 -0500
+
+kali-menu (0.9995) kali; urgency=low
+
+  * Added cadaver desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 25 Feb 2013 16:40:22 -0700
+
+kali-menu (0.9994) kali; urgency=low
+
+  * fixed wrong icon set
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 25 Feb 2013 16:49:34 -0500
+
+kali-menu (0.9993) kali; urgency=low
+
+  * Added Kali menu items
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 25 Feb 2013 16:41:24 -0500
+
+kali-menu (0.9992) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 25 Feb 2013 13:40:37 -0700
+
+kali-menu (0.9991) kali; urgency=low
+
+  * Fixed up various desktop files containing .directory extensions in
+    category
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 25 Feb 2013 07:47:18 -0500
+
+kali-menu (0.9990) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 22 Feb 2013 05:30:32 -0700
+
+kali-menu (0.999) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Sun, 17 Feb 2013 07:06:00 -0700
+
+kali-menu (0.998) kali; urgency=low
+
+  * MSF tool name fix
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 15 Feb 2013 17:57:01 -0500
+
+kali-menu (0.997) kali; urgency=low
+
+  * Added additional desktop files and fixed others
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 15 Feb 2013 13:36:11 -0700
+
+kali-menu (0.996) kali; urgency=low
+
+  * Added msf service entries
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 14 Feb 2013 16:42:43 -0500
+
+kali-menu (0.995) kali; urgency=low
+
+  * Msfpro path change
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 14 Feb 2013 16:31:07 -0500
+
+kali-menu (0.994) kali; urgency=low
+
+  * Fixed a typo in msfupdate
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 14 Feb 2013 15:52:56 -0500
+
+kali-menu (0.993) kali; urgency=low
+
+  * Added metasploit menu items
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 14 Feb 2013 15:52:56 -0500
+
+kali-menu (0.992) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Sat, 09 Feb 2013 18:25:55 -0700
+
+kali-menu (0.991) kali; urgency=low
+
+  * Fixed error in 0trace desktop
+
+ -- balding_parrot <balding_parrot@kali.org>  Fri, 01 Feb 2013 22:47:05 +0000
+
+kali-menu (0.990) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Fri, 01 Feb 2013 05:45:15 -0700
+
+kali-menu (0.989) kali; urgency=low
+
+  * Fixed errors in desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 31 Jan 2013 09:54:37 -0700
+
+kali-menu (0.988) kali; urgency=low
+
+  * Fixed a few broken desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 30 Jan 2013 15:17:42 -0500
+
+kali-menu (0.987) kali; urgency=low
+
+  * Added new desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 29 Jan 2013 13:49:37 -0700
+
+kali-menu (0.986) kali; urgency=low
+
+  * Added new desktop files and fixed the dff desktop file
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 28 Jan 2013 08:06:59 -0700
+
+kali-menu (0.985) kali; urgency=low
+
+  * Added chinese menu translation
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 25 Jan 2013 20:18:09 -0500
+
+kali-menu (0.984) kali; urgency=low
+
+  * Added Other Wireless sub-category
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 21 Jan 2013 05:48:09 -0700
+
+kali-menu (0.983) kali; urgency=low
+
+  * Changed Fast-Track to Network Exploitation
+
+ -- Devon Kearns <dookie@kali.org>  Sat, 19 Jan 2013 08:13:11 -0700
+
+kali-menu (0.982) kali; urgency=low
+
+  * Added italian translation
+
+ -- Emanuele Acri <crossbower@kali.org>  Tue, 15 Jan 2013 23:26:35 +0100
+
+kali-menu (0.981) kali; urgency=low
+
+  * Added languages to directory files. Removed sudo from desktop files.
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 15 Jan 2013 08:33:30 -0500
+
+kali-menu (0.980) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 09 Jan 2013 18:10:41 -0700
+
+kali-menu (0.979) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 07 Jan 2013 06:13:44 -0700
+
+kali-menu (0.978) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Sun, 30 Dec 2012 18:34:43 -0700
+
+kali-menu (0.977) kali; urgency=low
+
+  * Fixed a couple of wrong categoriy entries in desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 27 Dec 2012 21:42:38 -0500
+
+kali-menu (0.976) kali; urgency=low
+
+  * Updated Kali menu png
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 27 Dec 2012 11:51:12 -0500
+
+kali-menu (0.974) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 26 Dec 2012 14:12:48 -0700
+
+kali-menu (0.973) kali; urgency=low
+
+  * Update kali and menu images
+
+ -- Mati Aharoni <muts@kali.org>  Mon, 24 Dec 2012 09:08:17 -0500
+
+kali-menu (0.972) kali; urgency=low
+
+  * Added additional desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Sun, 23 Dec 2012 14:33:17 -0700
+
+kali-menu (0.971) kali; urgency=low
+
+  * Added ssh and apache service files
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 18 Dec 2012 19:33:15 -0500
+
+kali-menu (0.97) kali; urgency=low
+
+  * Added various desktop files
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 18 Dec 2012 16:35:47 -0600
+
+kali-menu (0.96) kali; urgency=low
+  * Added desktop files
+
+ -- balding_parrot <balding_parrot@kali.org>  Tue, 18 Dec 2012 23:05:41 +0000
+
+kali-menu (0.95) kali; urgency=low
+
+  * Added desktop files for remaining Debian tools
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 04 Dec 2012 09:22:02 -0700
+
+kali-menu (0.94) kali; urgency=low
+
+  * Updated top10 in menu
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 16 Dec 2012 09:02:18 -0500
+
+kali-menu (0.93) kali; urgency=low
+
+  * Fixed type in file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 15:34:05 -0500
+
+kali-menu (0.92) kali; urgency=low
+
+  * Added more desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 15:29:41 -0500
+
+kali-menu (0.91) kali; urgency=low
+
+  * Added more desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 11:23:26 -0500
+
+kali-menu (0.90) kali; urgency=low
+
+  * Added desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 08:16:11 -0500
+
+kali-menu (0.89) kali; urgency=low
+
+  * Added more desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 20:24:18 -0500
+
+kali-menu (0.88) kali; urgency=low
+
+  * Added icons to submenus
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 13:26:02 -0500
+
+kali-menu (0.87) kali; urgency=low
+
+  * Even more default desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 12:37:55 -0500
+
+kali-menu (0.86) kali; urgency=low
+
+  * More default desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 10:18:55 -0500
+
+kali-menu (0.85) kali; urgency=low
+
+  * Added menu icons
+
+ -- Mati Aharoni <muts@kali.org>  Fri, 14 Dec 2012 08:14:10 -0500
+
+kali-menu (0.84) kali; urgency=low
+
+  * Added debian files to kali menu
+
+ -- Mati Aharoni <muts@kali.org>  Thu, 13 Dec 2012 16:12:21 -0500
+
+kali-menu (0.83) kali; urgency=low
+
+  * Embed a mechanism to provide and activate desktop files on installation of
+    specific Debian packages. This enables us to provide our own desktop file 
+    without modifying the corresponding source package.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Wed, 12 Dec 2012 16:35:43 +0100
+
+kali-menu (0.82) kali; urgency=low
+
+  * Spanish directory file fixes
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 04 Dec 2012 19:31:45 -0500
+
+kali-menu (0.81) kali; urgency=low
+
+  * Spanish translation by fuurio
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 04 Dec 2012 18:11:35 -0500
+
+kali-menu (0.8) kali; urgency=low
+
+  * Fixing up menu
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Dec 2012 07:11:21 -0500
+
+kali-menu (0.7) kali; urgency=low
+
+  * Fixed typos
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 01 Dec 2012 07:00:40 -0500
+
+kali-menu (0.6) kali; urgency=low
+
+  * Adding RE menu entries
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 01 Dec 2012 06:51:09 -0500
+
+kali-menu (0.3) kali; urgency=low
+
+  * Fixed typo in kali-applications.menu
+
+ -- dookie <dookie@kali.org>  Mon, 26 Nov 2012 17:28:44 -0700
+
+kali-menu (0.2) kali; urgency=low
+
+  * Restructured Menus
+
+ -- dookie <dookie@kali.org>  Thu, 18 Oct 2012 08:19:46 -0600
+
+kali-menu (0.1) kali; urgency=low
+
+  * Initial Release.
+  * Trigger /usr/share/applications in postinst to force a regeneration
+    of the GNOME menu.
+
+ -- Raphaël Hertzog <hertzog@debian.org>  Mon, 23 Apr 2012 14:17:27 +0000

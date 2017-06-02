@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Audit updates OS Windows
+Name[ru]=Аудит обновлений ОС Windows
+GenericName=wuch
+Exec=sudo openvt -w -- sudo wuch
+Comment[ru_RU]=Список неустановленных обновлений ОС Windows
+Icon=/usr/share/pixmaps/wuch.png
+Type=Application
+Categories=02-vulnerability-analysis;
+X-Kali-Package=wuch

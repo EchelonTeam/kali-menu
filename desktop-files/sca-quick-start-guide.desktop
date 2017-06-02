@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=sca-quick-start-guide
+Name[ru]=Краткое руководство пользователя
+Exec=evince /usr/share/doc/sca-doc/quick-start-guide.pdf
+Icon=/usr/share/pixmaps/sca-doc.svg
+Type=Application
+Categories=14-help
+X-Kali-Package=sca-doc

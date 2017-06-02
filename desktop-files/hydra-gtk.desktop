@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=hydra-gtk
+Name[ru]=Сетевой аудит паролей
+Encoding=UTF-8
+Exec=sh -c "xhydra"
+Icon=xhydra.svg
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=05-01-online-attacks;
+X-Kali-Package=hydra-gtk
+
+

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PIK Echelon
+Name[ru]=ПИК Эшелон
+Exec=/usr/bin/pik_gui
+Icon=/usr/share/pixmaps/pik.png
+StartupNotify=false
+Terminal=false
+Type=Application
+Categories=11-forensics;
+Comment=Program for making checksums and executing inspect control
+Comment[ru_RU]=Программа для проведения контрольного суммирования и инспекционного контроля
+X-Kali-Package=pik-console

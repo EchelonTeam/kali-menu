@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Echelon password auditor
+Name[ru]=Локальный аудит паролей
+GenericName=epassa
+Exec=sudo epassa
+Icon=epassa.svg
+Type=Application
+Categories=05-password-attacks;
+X-Kali-Package=epassa

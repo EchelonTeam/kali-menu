@@ -1,0 +1,7 @@
+menus/kali-applications.menu etc/xdg/menus/applications-merged/
+desktop-directories/*.directory usr/share/desktop-directories/
+desktop-files/*.desktop usr/share/kali-menu/applications/
+apt.conf.d/99kali-menu etc/apt/apt.conf.d/
+update-kali-menu usr/share/kali-menu/
+menu-icons/* usr/share/icons/hicolor/
+dconf/kali-menu etc/dconf/db/local.d/

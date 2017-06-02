@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=md5deep
+Encoding=UTF-8
+Exec=sh -c "md5deep -h;${SHELL:-bash}"
+Icon=md5deep.png
+StartupNotify=false
+Terminal=true
+Type=Application
+Categories=11-forensics;
+X-Kali-Package=md5deep
