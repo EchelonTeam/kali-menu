@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
 Name=sca-astra-audit
-Name[ru]=Аудит настроек Astra Linux 
+Name[ru]=Аудит ОС Astra Linux
 Exec=sh -c "sca-astra-audit;${SHELL:-bash}"
 Comment[ru_RU]=Утилита для удаленного аудита настроек комплекса средств защиты (КСЗ) ОС Astra Linux SE по требованиям безопасности.
 Icon=/usr/share/pixmaps/sca-astra-audit.svg
