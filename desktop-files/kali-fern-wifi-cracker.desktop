@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=fern wifi cracker
+Name[ru]=Аудит беспроводных сетей
 Encoding=UTF-8
 Exec=sh -c "fern-wifi-cracker"
 Icon=fern-wifi-cracker.png
